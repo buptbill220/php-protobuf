@@ -20,13 +20,13 @@ if($tree === false){
 	echo "analysis file $input_name failed!\n";
 	exit(-1);
 }
-dump($tree);
+//dump($tree);
 $flag = check_tree($tree);
 if (!$flag) {
 	echo "error, grammatical mistake occured!\n";
 	exit(-1);
 }
-dump($tree);
+//dump($tree);
 $output_name = get_output_file($input_name);
 echo "output file is $output_name\n";
 $flag = compile_tree($tree, $output_name);
