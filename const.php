@@ -1,4 +1,11 @@
 <?php
+/*
+discription: this file include all const definitions needed.
+author: fangming
+email: buptbill220@gmail.com
+company: alibaba
+phone: 15810541016
+*/
 define("UNKNOWN", -1);
 //line
 define("MYNULL", 0);	//null line
