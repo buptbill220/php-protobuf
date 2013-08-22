@@ -172,4 +172,3 @@ function write_tail($file) {
 	$tail = "?>";
 	fwrite($file, $tail);
 }
-?>
