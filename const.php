@@ -42,4 +42,3 @@ define("SFIXED64", 12);
 define("BOOL", 13);
 define("STRING", 14);
 define("BYTES", 15);
-?>
