@@ -585,4 +585,3 @@ class BaseClass {
 		return $t;
 	}
 }
-?>
