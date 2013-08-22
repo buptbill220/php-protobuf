@@ -281,4 +281,3 @@ function get_class_name($tree, $idx) {
 	if ($class_name !== '')	$class_name = substr($class_name, 1);
 	return $class_name;
 }
-?>
