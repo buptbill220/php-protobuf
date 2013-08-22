@@ -41,4 +41,3 @@ function get_output_file($filename){
 	$pre = preg_replace('/\.proto$/i', '', $filename);
 	return $pre . '.php';
 }
-?>
