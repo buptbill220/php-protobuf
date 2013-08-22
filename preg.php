@@ -64,4 +64,3 @@ function format_data_type($type) {
 	}
 	return $re;
 }
-?>
