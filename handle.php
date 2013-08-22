@@ -36,4 +36,3 @@ function format_type($matches){
 		return false;
 	return $re;
 }
-?>
