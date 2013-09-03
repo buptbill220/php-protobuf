@@ -576,7 +576,7 @@ class BaseClass {
 				$t = 3;break;
 			case 'groupe':
 				$t = 4;break;
-			case FIXED32:case SFIXED32:case float:
+			case FIXED32:case SFIXED32:case FLOAT:
 				$t = 5;break;
 			default:
 				echo "unknow type!\n";
